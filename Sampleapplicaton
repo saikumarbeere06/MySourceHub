@@ -1,0 +1,13 @@
+This is sample yml file
+
+execution:
+- executor: selenium
+  scenario: open_page
+
+scenarios:
+  open_page:
+    browser: Chrome
+    timeout: 10s
+    think-time: 20s
+    requests:
+    - url: http://blazedemo.com
